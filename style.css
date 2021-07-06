@@ -1,10 +1,11 @@
 body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
+    padding: 0;
 }
 
 .header {
-    background-color: #EB2CB0;
+    background-color: #F97960;
     display: flex;
 
 }
@@ -25,8 +26,10 @@ body {
 
 .top-banner {
     display: flex;
-    background-image: url(images/shapes/Frame\ 59.jpg);
+    background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
+    margin-bottom: 80px;
+
 }
 
 .top-sec h1 {
@@ -35,9 +38,10 @@ body {
 
 .top-sec a {
     text-decoration: none;
-    background-image: linear-gradient(to right, rgba(164, 4, 238, 0.315), rgb(255, 0, 234));
+    background-image: linear-gradient(to right, #F97960, #f97a608e);
     padding: 10px;
     border-radius: 10px;
+    color: white;
 }
 
 .half-width {
@@ -46,13 +50,85 @@ body {
 
 }
 
-.purple-color {
-    color: #EB2CB0;
+.orange-color {
+    color: #F97960;
 }
 
 .mid-banner {
+    background-image: url(images/my-bg.png);
+    ;
+}
 
+
+
+.recipe-area>h1 {
+    text-align: center;
+}
+
+.recipe-area>p {
+    text-align: center;
+}
+
+.recipe {
+    width: 20%;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 10px;
+    margin-left: 25px;
+    margin-top: 25px;
+
+}
+
+.recipe img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.recipe p {
+    text-align: justify;
+}
+
+.recipe-container {
     display: flex;
-    background-image: url(images/shapes/Frame\ 59.jpg);
-    background-repeat: no-repeat;
+    justify-content: center;
+}
+
+.subs-area {
+    width: 70%;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+}
+
+.subs-count {
+    margin-left: 230px;
+    text-align: center;
+    justify-content: center;
+}
+
+.subs-count h3 {
+    font-weight: bold;
+}
+
+.footer-area {
+    background-color: #0B0E17;
+    text-align: center;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+.footer-logo {
+    padding: 0;
+}
+
+.footer-area P {
+    color: white;
+}
+
+.footer-area a {
+    color: white;
+    text-decoration: none;
 }
