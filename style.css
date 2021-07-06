@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header {
+    background-color: #EB2CB0;
+    display: flex;
+
+}
+
+.logo {
+    font-family: 'Kalam', cursive;
+    color: white;
+    padding-left: 5%;
+}
+
+.social-media {
+    margin: 0 auto;
+}
+
+.social-media a img {
+    padding: 10px;
+}
+
+.top-banner {
+    display: flex;
+    background-image: url(images/shapes/Frame\ 59.jpg);
+    background-repeat: no-repeat;
+}
+
+.top-sec h1 {
+    font-size: 60px;
+}
+
+.top-sec a {
+    text-decoration: none;
+    background-image: linear-gradient(to right, rgba(164, 4, 238, 0.315), rgb(255, 0, 234));
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.half-width {
+    width: 50%;
+    padding-left: 5%;
+
+}
+
+.purple-color {
+    color: #EB2CB0;
+}
+
+.mid-banner {
+
+    display: flex;
+    background-image: url(images/shapes/Frame\ 59.jpg);
+    background-repeat: no-repeat;
+}
